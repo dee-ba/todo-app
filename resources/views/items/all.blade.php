@@ -15,8 +15,7 @@
  <tr style="background-color: #B58D7B; color:white">
    <th scope="col">ID</th>
    <th scope="col">Name</th>
-   <th scope="col">Detail</th>
-   <th scope="col" style="width:100px";>Image</th>
+   
 
  </tr>
 
@@ -24,8 +23,7 @@
 <tr>
  <td>{{$item->id}}</td> 
  <td>{{$item->name}}</td>
- <td>{{$item->detail}}</td>
- <td> <img src="{{ $item->image }}"></td>
+ 
 
 
 </tbody>
