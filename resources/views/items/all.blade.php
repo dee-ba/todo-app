@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products</title>
+    <title>Items</title>
 </head>
 <body>
-    <h1>All Products</h1>
+    <h1>All Items</h1>
 
 
 <table class="table table-hover table-responsive-sm border p-5 mb-5">
@@ -20,12 +20,12 @@
 
  </tr>
 
-@foreach($products as $product)
+@foreach($items as $item)
 <tr>
- <td>{{$product->id}}</td> 
- <td>{{$product->name}}</td>
- <td>{{$product->detail}}</td>
- <td> <img src="{{ $product->image }}"></td>
+ <td>{{$item->id}}</td> 
+ <td>{{$item->name}}</td>
+ <td>{{$item->detail}}</td>
+ <td> <img src="{{ $item->image }}"></td>
 
 
 </tbody>
