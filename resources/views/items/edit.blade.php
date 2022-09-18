@@ -24,7 +24,11 @@
                 
                 <strong>Detail</strong> <br>
             	<input type="text" name= "detail" value= "{{ $item['detail']}}">
-                <br><br>          
+                <br><br>     
+                
+                <strong>Image</strong> <br>
+            	<input type="image" name= "image" id= "image" value= "{{ $item['image']}}">
+                <br><br>   
                     
             
                 <br><br><br>
