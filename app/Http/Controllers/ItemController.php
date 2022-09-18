@@ -59,7 +59,9 @@ class ItemController extends Controller
      */
     public function edit($id)
     {
-        //
+        $item = Item::find($id);
+        return view ('items.edit', ['item' => $item]);
+         
     }
 
     /**
@@ -69,9 +71,15 @@ class ItemController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $req)
     {
-        //
+        $item = Item::find($req -> id);
+        $item -> name = $req -> name;
+        $item -> detail = $req -> detail;
+
+        $item -> save();
+        return redirect('/items');
+
     }
 
     /**
@@ -82,6 +90,9 @@ class ItemController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $item = Item::find($id);
+        $item -> delete();
+        return redirect ('/items');
+
     }
 }

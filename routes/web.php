@@ -20,4 +20,15 @@ Route::get('/', function () {
 
 
 Route::get('/products', [ProductController::class, 'index']);
+
 Route::get('/items', [ItemController::class, 'index']);
+
+
+Route::get('edit/{id}', [ItemController::class, 'edit']);
+
+
+
+Route::post('/edit', [ItemController::class, 'update']);
+Route::get('delete/{id}', [ItemController::class, 'destroy']);
+
+
