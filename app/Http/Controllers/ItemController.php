@@ -74,6 +74,7 @@ class ItemController extends Controller
     public function update(Request $req)
     {
         $item = Item::find($req -> id);
+        $item -> image = $req -> image;
         $item -> name = $req -> name;
         $item -> detail = $req -> detail;
 

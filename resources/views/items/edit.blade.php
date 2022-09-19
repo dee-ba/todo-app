@@ -19,7 +19,7 @@
 
 
                 <strong>Image</strong> <br>
-            	<input type="text" name= "image" value= "{{ $item['image']}}">
+            	<input type="file" name= "image" value= "{{ $item['image']}}">
                 <br><br>
             
                 <strong>Name</strong> <br>
