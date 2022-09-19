@@ -12,6 +12,7 @@
 
       <table>
             <tr>
+              <th>Image</th>
               <th>Name</th>   
               <th>Detail</th>
               <th>Edit</th>
@@ -20,6 +21,7 @@
 
             @foreach($items as $item)
             <tr>
+              <td>{{$item->image}}</td>
               <td>{{$item->name}}</td>
               <td>{{$item->detail}}</td>
               <td> 		

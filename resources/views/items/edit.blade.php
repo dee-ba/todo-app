@@ -17,6 +17,10 @@
                 <input type="hidden" name="id"  value="{{$item['id']}}"> 
                 <br><br>
 
+
+                <strong>Image</strong> <br>
+            	<input type="text" name= "image" value= "{{ $item['image']}}">
+                <br><br>
             
                 <strong>Name</strong> <br>
             	<input type="text" name= "name" value= "{{ $item['name']}}">
@@ -26,11 +30,7 @@
             	<input type="text" name= "detail" value= "{{ $item['detail']}}">
                 <br><br>     
                 
-                <strong>Image</strong> <br>
-            	<input type="image" name= "image" id= "image" value= "{{ $item['image']}}">
-                <br><br>   
-                    
-            
+                         
                 <br><br><br>
   
                 <button type="submit">
