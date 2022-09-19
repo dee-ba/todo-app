@@ -2,8 +2,11 @@
 @section ('title', 'Welcome')
 @section ('content')
 
+<h1 style="text-align:center;"><a href="/create">Solution</a></h1>
 
-<h1>Welcome</h1>
+    
+
+
 
 <h2>De beeproger opdracht</h2>
 

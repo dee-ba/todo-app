@@ -16,7 +16,7 @@ class ItemController extends Controller
     public function index()
     {
         $items = Item::all();    
-        return view('items/all', ['items' => $items]);
+        return view('items/index', ['items' => $items]);
     }
 
     /**
@@ -26,7 +26,8 @@ class ItemController extends Controller
      */
     public function create()
     {
-        //
+         
+        return view('items.create');
     }
 
     /**
@@ -37,8 +38,18 @@ class ItemController extends Controller
      */
     public function store(Request $request)
     {
-        //
+      
+        $item = new Item;
+        $item-> image = $request->image; 
+        $item-> name = $request->name; 
+        $item-> detail = $request->detail; 
+
+        $item -> save();
+
+     
+        return redirect('index');
     }
+    
 
     /**
      * Display the specified resource.
@@ -79,7 +90,7 @@ class ItemController extends Controller
         $item -> detail = $req -> detail;
 
         $item -> save();
-        return redirect('/items');
+        return redirect('/index');
 
     }
 
@@ -93,7 +104,7 @@ class ItemController extends Controller
     {
         $item = Item::find($id);
         $item -> delete();
-        return redirect ('/items');
+        return redirect ('/index');
 
     }
 }
