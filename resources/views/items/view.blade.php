@@ -4,7 +4,10 @@
 
 
 <h1>Hello</h1>
-    
+
+
+
+
 <table>
             <tr>
               <th>Checkbox</th>
@@ -15,9 +18,14 @@
               <th>Delete</th>
             </tr>
 
-
-            @foreach($items as $item)
            
+            <tr>
+              <th width="50px"><input type="checkbox"></th>
+              </th>
+              <td><img width= "100px" src="{{ $item->image }}"></td>
+              <td>{{$item->name}}</td>
+              <td>{{$item->detail}}</td>
+
               <td> 		
                   <button>
                       <a href="{{'view/' .$item['id'] }}">View</a>
@@ -34,7 +42,8 @@
                     <a href="{{'delete/' .$item['id'] }}"> Delete </a>
                 </button>
               </td>
-            @endforeach
+            
+            
       </table>
 
 

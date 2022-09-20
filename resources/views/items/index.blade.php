@@ -28,7 +28,6 @@
               <td>{{$item->name}}</td>
               <td>{{$item->detail}}</td>
 
-
               <td> 		
                   <button>
                       <a href="{{'view/' .$item['id'] }}">View</a>
