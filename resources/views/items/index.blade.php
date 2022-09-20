@@ -12,6 +12,7 @@
 
       <table>
             <tr>
+              <th>Checkbox</th>
               <th>Image</th>
               <th>Name</th>   
               <th>Detail</th>
@@ -21,6 +22,8 @@
 
             @foreach($items as $item)
             <tr>
+              <th width="50px"><input type="checkbox"></th>
+              </th>
               <td><img width= "100px" src="{{ $item->image }}"></td>
               <td>{{$item->name}}</td>
               <td>{{$item->detail}}</td>
