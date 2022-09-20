@@ -1,8 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ProductController;
-use App\Http\Controllers\ItemController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,22 +13,6 @@ use App\Http\Controllers\ItemController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-//Testing Purposes
-// Route::get('/products', [ProductController::class, 'index']);
-
-Route::get('/index', [ItemController::class, 'index']);
-Route::get('edit/{id}', [ItemController::class, 'edit']);
-Route::post('/edit', [ItemController::class, 'update']);
-Route::get('delete/{id}', [ItemController::class, 'destroy']);
-
-
-Route::get('/create', [ItemController::class, 'create']);
-Route::post('/items', [ItemController::class, 'store']);
-
-
-
-Route::get('/view/{id}', [ItemController::class, 'show']);   
+Route::get('/{any}', function () {
+    return view('layouts.vue');
+})->where('any', '.*');

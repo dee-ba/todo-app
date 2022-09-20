@@ -2,6 +2,9 @@
 @section ('title', 'Welcome')
 @section ('content')
 
+
+
+
 <h1 style="text-align:center;"><a href="/create">Solution</a></h1>
 
     
@@ -63,5 +66,15 @@ herladen van de pagina.</p>
 repository.</p>
 
 <h1>We drive your innovation.</h1>
+
+
+<body class="antialiased">
+
+    <div id="app"></div>
+
+    <h1>Test</h1>
+
+    <script src="{{ asset('js/app.js') }}"></script>
+
 
 @endsection	
