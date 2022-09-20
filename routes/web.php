@@ -29,3 +29,7 @@ Route::get('delete/{id}', [ItemController::class, 'destroy']);
 
 Route::get('/create', [ItemController::class, 'create']);
 Route::post('/items', [ItemController::class, 'store']);
+
+
+
+Route::get('/view/{id}', [ItemController::class, 'show']);   
