@@ -6,7 +6,7 @@
             @csrf 
           
                 <strong>Image</strong> <br>
-            	<input type="url" name= "image" placeholder="Image">
+            	<input type="text" name= "image" placeholder="Image">
                 <br><br>
                 <strong>Name</strong><br>
               

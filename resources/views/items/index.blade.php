@@ -21,7 +21,7 @@
 
             @foreach($items as $item)
             <tr>
-              <td>{{$item->image}}</td>
+              <td><img width= "100px" src="{{ $item->image }}"></td>
               <td>{{$item->name}}</td>
               <td>{{$item->detail}}</td>
               <td> 		

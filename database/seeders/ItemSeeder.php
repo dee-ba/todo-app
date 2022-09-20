@@ -21,6 +21,7 @@ class ItemSeeder extends Seeder
     {
         $faker = Faker::create();
         DB::table('items')->insert([
+            'image' => 'https://images.unsplash.com/photo-1589396575653-c09c794ff6a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
             'name' => 'Mocha',
             'detail' => 'The classic iced coffee drink rich, full-bodied espresso combined with milk and ice, then topped with whipped cream.',
             'created_at' => date('y-m-d'),	
@@ -28,6 +29,7 @@ class ItemSeeder extends Seeder
         ]);
 
         Item::create([
+            'image' => 'https://images.unsplash.com/photo-1485808191679-5f86510681a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
             'name' => 'Espresso Macchiato',
             'detail' => 'Steamed milk and foam, with just about half a shot of espresso. This beverage is excellent for coffee lovers who love the espresso flavour!',
             'created_at' => date('y-m-d'),	
@@ -35,6 +37,7 @@ class ItemSeeder extends Seeder
         
         ]);
         Item::create([
+            'image' => 'https://images.unsplash.com/photo-1517256064527-09c73fc73e38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
             'name' => 'Cappaccino',
             'detail' => 'Espresso, expertly blended with steamed, frothy milk. We love a creamy cappuccino topped with a sprinkling of cocoa powder',
             'created_at' => date('y-m-d'),	
@@ -42,6 +45,7 @@ class ItemSeeder extends Seeder
            
         ]);
         Item::create([
+            'image' => 'https://images.unsplash.com/photo-1589396575653-c09c794ff6a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
             'name' => 'Mochaccino',
             'detail' => 'Hybrid between a mocha and a cappuccino made with chocolate sauce. Perfect for the chocoholic who likes a foamy mocha!',
             'created_at' => date('y-m-d'),	
