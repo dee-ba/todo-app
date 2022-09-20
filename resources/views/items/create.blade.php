@@ -6,15 +6,15 @@
             @csrf 
           
                 <strong>Image</strong> <br>
-            	<input type="text" name= "image" placeholder="Image">
+            	<input type="text" name= "image" placeholder="image url here">
                 <br><br>
                 <strong>Name</strong><br>
               
-            	<input type="text" name= "name" placeholder="Name">
+            	<input type="text" name= "name" placeholder="name item here">
                 <br><br>
             
                 <strong>Detail</strong> <br>
-            	<input type="text" name= "detail" placeholder="Detail">
+            	<input type="text" name= "detail" placeholder="more info here..">
                 <br><br>    
                 
                 <button type="submit">
