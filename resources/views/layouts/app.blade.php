@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title')</title>
+    @vite('resources/css/app.css')
 
 
      <!-- Scripts -->
@@ -27,7 +28,7 @@
 
 <body>
     
-    <h1>Laravel Layout is Here</h1>
+    <h1 class="text-lg text-blue-600">Laravel Layout is Here</h1>
 
     @yield('content')
 

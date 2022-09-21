@@ -11,9 +11,9 @@
 
 
 
-<h2>De beeproger opdracht</h2>
+<h2 class="text-green-600">De beeproger opdracht</h2>
 
-<p>
+<p class="text-yellow-600">
 Zoals aangegeven tijdens het kennismakingsgesprek willen we graag dat je
 onderstaande opdracht maakt. Dit zodat wij een goed beeld krijgen van jouw skills.
 Ontwikkel voor ons een Todo-list en/of Boodschappenlijst. Het dient te bestaan uit een
