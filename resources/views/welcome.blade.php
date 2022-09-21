@@ -5,7 +5,7 @@
 
 
 
-<h1 style="text-align:center;"><a href="/create">Solution</a></h1>
+<h1 style="text-align:center;"><a href="/index">Solution</a></h1>
 
     
 
