@@ -5,24 +5,16 @@
 
 
 
-<h1 style="text-align:center;"><a href="/index">Solution</a></h1>
+<div class="text-lg mt-5 mx-10">
 
-    
-
-
-
-<h2 class="text-green-600">De beeproger opdracht</h2>
-
-<p class="text-yellow-600">
-Zoals aangegeven tijdens het kennismakingsgesprek willen we graag dat je
-onderstaande opdracht maakt. Dit zodat wij een goed beeld krijgen van jouw skills.
+<p class="text-lg bg-red font-bold" >De beeproger opdracht</p>
+<p class="mt-2"> Zoals aangegeven tijdens het kennismakingsgesprek willen we graag dat je onderstaande opdracht maakt. Dit zodat wij een goed beeld krijgen van jouw skills.
 Ontwikkel voor ons een Todo-list en/of Boodschappenlijst. Het dient te bestaan uit een
 losse back- en frontend, welke met elkaar communiceren.
 </p>
 
-<h2>De kenmerken hiervoor zijn:
-</h2>
 
+<p class="text-lg mt-5 font-bold">De kenmerken hiervoor zijn:</p>
 <ul>
     <li>Een lijst met items tonen;</li>
     <li>Een item kunnen bewerken;</li>
@@ -36,21 +28,22 @@ losse back- en frontend, welke met elkaar communiceren.
 </ul>
 
 
-<h2>Vereisten voor de backend:</h2>
+<p class="text-lg mt-5 font-bold">Vereisten voor de backend:<p>
 <ul>
     <li>Laravel Framework - REST</li>
     <li>Database (MySQL, SQLite)</li>
 </ul>
 
-<h2>Docs:</h2>
+<p class="text-lg mt-5 font-bold">Docs:</p>
+
 <ul>
     <li>https://laravel.com/docs</li>
     <li>https://scotch.io</li>
     <li>https://laracasts.com</li>
 </ul>
 
+<p class="text-lg mt-5 font-bold">Voor de Frontend:</p>
 
-<h2>Voor de Frontend:</h2>
 <p>Het toepassen van een framework die MVVM kan ondersteunen. Dat houd eigenlijk in
 dat het een Single Page Application is waarbij de lijst beheert kan worden zonder
 herladen van de pagina.</p>
@@ -62,10 +55,23 @@ herladen van de pagina.</p>
     <li>Vanilla Javascript.</li>
 </ul>
 
-<p>Graag zien we de opgeleverde opdracht binnen 2 weken tegemoet in een github
+<p class="text-lg mt-5 font-bold">Graag zien we de opgeleverde opdracht binnen 2 weken tegemoet in een github
 repository.</p>
 
-<h1>We drive your innovation.</h1>
+<p class="text-xlg mt-10 font-bold text-red-600 text-5xl">We drive your innovation.</p>
+
+
+<div class="text-lg mt-10 font-bold">
+<p class="text-2xl">Todo-App</p>
+<p class="text-blue-600" ><a href="/index">Click Here</a></p>
+</div>
+
+
+
+
+</div>
+
+
 
 
 <body class="antialiased">
