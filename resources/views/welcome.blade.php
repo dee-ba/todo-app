@@ -43,7 +43,7 @@ losse back- en frontend, welke met elkaar communiceren.
 </ul>
 
 <p class="text-lg mt-5 font-bold">Voor de Frontend:</p> 
-<p>delete this</p>
+
 
 <p>Het toepassen van een framework die MVVM kan ondersteunen. Dat houd eigenlijk in
 dat het een Single Page Application is waarbij de lijst beheert kan worden zonder
