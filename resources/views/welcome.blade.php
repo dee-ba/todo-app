@@ -42,7 +42,7 @@ losse back- en frontend, welke met elkaar communiceren.
     <li>https://laracasts.com</li>
 </ul>
 
-<p class="text-lg mt-5 font-bold">Voor de Frontend:</p>
+<p class="text-lg mt-5 font-bold">Voor de Frontend:</p> testing 
 
 <p>Het toepassen van een framework die MVVM kan ondersteunen. Dat houd eigenlijk in
 dat het een Single Page Application is waarbij de lijst beheert kan worden zonder
