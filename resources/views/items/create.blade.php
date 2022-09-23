@@ -1,7 +1,8 @@
 @extends ('layouts.app')
 @section ('title', 'Create')
 @section ('content')
-    
+
+
 <form action="/items" method="Post" enctype="multipart/form-data">		
             @csrf 
           
