@@ -3,12 +3,7 @@
 @section ('content')
 
 
-
-
-
-<div class="text-lg mt-5 mx-10">
-
-<div class="text-right text-4xl font-bold">
+<div class="mb-6 text-right text-4xl font-bold">
 <span> beeproger </span><span class="text-4xl font-bold text-red-500" >.</span>
 </div>
 
@@ -74,18 +69,6 @@ repository.</p>
 
 
 
-</div>
-
-
-
-
-<body class="antialiased">
-
-    <div id="app"></div>
-
-    <h1>Test</h1>
-
-    <script src="{{ asset('js/app.js') }}"></script>
 
 
 @endsection	

@@ -4,27 +4,17 @@
 
 
 
-    <table>
-        <tr>
-            <td> <strong> {{$item->name}} </strong> </td> 
-        </tr> 
-
-        <tr>
-           <td> {{$item->detail}} </td> 
-        </tr>         
-         
-        <tr>
-            <td><img width= "500px" src="{{ $item->image }}"></td>
-        </tr>
-
-         
-  
-      </table>
-
-
-
-
-
+   
+<div class="max-w-sm rounded overflow-hidden shadow-lg">
+<img width= "500px" src="{{ $item->image }}">
+  <div class="px-6 py-4">
+    <div class="font-bold text-xl mb-2">{{$item->name}}</div>
+    <p class="text-gray-700 text-base">
+    {{$item->detail}}
+    </p>
+  </div>
+ 
+</div>
 
 
 @endsection	
