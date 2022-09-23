@@ -22,7 +22,9 @@
                     <label class="block text-gray-700 text-sm font-bold mb-2">
                         Image
                     </label>
-                    <input type="text" name= "image" value= "{{ $item['image']}}" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"  type="text">
+                    <img width= "500px" src="{{ $item->image }}">
+                
+                    <input type="text" name= "image" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="https://">
                 </div>
 
 

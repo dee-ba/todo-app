@@ -63,7 +63,7 @@ repository.</p>
 
 <div class="text-xl text-center mt-10 font-bold text-red-500">
 <p class="text-2xl">Todo-App</p>
-<p class="text-blue-600" ><a href="/index">Click Here</a></p>
+<p class="text-blue-600" ><a href="/create">Click Here</a></p>
 </div>
 
 
