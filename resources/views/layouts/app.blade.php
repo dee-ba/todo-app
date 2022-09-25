@@ -73,7 +73,6 @@
 
 </div>
 
-</script>
 </body>
 </html>
 

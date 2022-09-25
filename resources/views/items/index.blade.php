@@ -28,16 +28,9 @@
               </th>
 
               <th scope="col" class="text-sm font-medium text-gray-900 px-3 py-2 text-left">
-                View
+                Action
               </th>
 
-              <th scope="col" class="text-sm font-medium text-gray-900 px-3 py-2 text-left">
-                Edit
-              </th>
-
-              <th scope="col" class="text-sm font-medium text-gray-900 px-3 py-2 text-left">
-                Delete
-              </th>
             </tr>
           </thead>
           <tbody>

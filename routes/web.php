@@ -33,3 +33,6 @@ Route::post('/items', [ItemController::class, 'store']);
 
 
 Route::get('/view/{id}', [ItemController::class, 'show']);   
+
+
+Route::get('/deleteall', [ItemController::class, 'deleteall']);
