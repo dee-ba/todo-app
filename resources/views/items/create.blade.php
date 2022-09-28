@@ -3,7 +3,9 @@
 @section ('content')
 
 
-
+    <div class="mt-20 ml-15 mb-10" >		
+                    <a href="/index" class="bg-red-400 text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">List of Items</a>
+    </div>
 
 <div class="w-full max-w-xs">
 <div class="flex items-center justify-between">
@@ -51,7 +53,11 @@
                 </div>
             </form>
 
+
+
         </div>
 
+
+        
 
 @endsection	
